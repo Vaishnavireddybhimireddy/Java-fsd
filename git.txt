@@ -1,0 +1,32 @@
+git --version 
+    fgit version 2.53.0.windows.1
+
+
+git config --list
+    diff.astextplain.textconv=astextplain
+    filter.lfs.clean=git-lfs clean -- %f
+    filter.lfs.smudge=git-lfs smudge -- %f
+    filter.lfs.process=git-lfs filter-process
+    filter.lfs.required=true
+    http.sslbackend=schannel
+    core.autocrlf=true
+    core.fscache=true
+    core.symlinks=true
+    pull.rebase=false
+    credential.helper=manager
+    credential.https://dev.azure.com.usehttppath=true
+    init.defaultbranch=master
+    filter.lfs.clean=git-lfs clean -- %f
+    filter.lfs.smudge=git-lfs smudge -- %f
+    filter.lfs.process=git-lfs filter-process
+    filter.lfs.required=true
+    user.name=Vaishnavi Reddy Bhimireddy
+    user.email=bhimireddyvaishnavireddy@gmail.com
+
+git config set --g user.name "Vaishnavi"
+
+git config set --g user.email "bhimireddyvaishnavireddy"
+
+
+
+git init --creat the 
