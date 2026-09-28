@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            margin: 0;
+            
+        }
+        form{
+            background-image: url('images.jpeg');
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+        }
+        fieldset{
+            width: 400px;
+            height: 400px;
+            margin: 100px auto;
+            background-color: rgba(0,0,0,0.5);
+            color:white;
+            border-radius: 10px;
+            background-filter: blur(10px);
+        }
+    </style>
+</head>
+<body>
+           
+    <form action="">
+        <fieldset>
+
+            <legend>Login form</legend>
+            <label for="username">Username:</label>
+            <input type="text" id="username"  minlength="3" maxlength="20" name="username" placeholder="Enter your username" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+            
+            <input type="submit" value="Login">
+            
+            <input type="reset" value="Reset">
+            
+            <input type="button" value="Cancel" onclick="window.location.href='index.html'">
+        </fieldset>
+    </form>
+</body>
+</html>
