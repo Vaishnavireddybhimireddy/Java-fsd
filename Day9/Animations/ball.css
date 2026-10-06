@@ -1,0 +1,32 @@
+.ball{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    animation: ball 2s linear 2s infinite alternate;
+}
+@keyframes ball {
+    from{
+        transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(30px);
+    }
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    animation: ball 2s linear 2s infinite alternate;
+
+}
+@keyframes heading {
+    from{
+        transform : translateX(-100px);
+    }
+    to{
+        transform: translateX(100px);
+    }
+ }

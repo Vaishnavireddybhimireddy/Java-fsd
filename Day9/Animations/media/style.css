@@ -1,0 +1,20 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-height:300px){
+    div{
+    background-color: pink;
+    }
+}
+@media (max-width:500px){
+    div{
+    background-color: rgb(231, 231, 6);
+    }
+}
