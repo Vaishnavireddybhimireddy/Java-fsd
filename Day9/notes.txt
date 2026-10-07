@@ -60,5 +60,7 @@ Position:
     fixed - Positioned relative to browser (removed from the flow)
     sticky - Positioned based on the user's scroll Position
 
+    if 2 box are overlapping then we have to give the index values by changing the z-index values as -1 and +1
+
 
 
